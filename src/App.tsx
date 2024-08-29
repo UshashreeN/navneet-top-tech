@@ -19,7 +19,7 @@ const App: React.FC = () => {
         <StudentProvider>
           <Router>
             <Routes>
-              <Route path="/" element={<Login />} />
+              <Route path="/navneet-top-tech" element={<Login />} />
               <Route element={<PrivateRoute />}>
                 <Route path="/home" element={<Home />}>
                   <Route index element={<PendingWork />} />
